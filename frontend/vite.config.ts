@@ -16,6 +16,7 @@ export default defineConfig({
     hmr: {
       port: 443,
     },
+    allowedHosts: ['.preview.emergentagent.com'],
   },
   build: {
     outDir: 'build',
